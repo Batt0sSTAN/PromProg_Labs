@@ -13,4 +13,4 @@ cmake-build-release/
 # Скрытые папки IDE (Visual Studio, CLion, VS Code)
 .vscode/
 
-.pdf
+*.pdf
