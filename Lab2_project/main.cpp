@@ -20,6 +20,8 @@ int main() {
 
     std::cout << "--- СДЕЛАЛ РАЗРАБОТЧИК 1 ---" << std::endl;
     std::cout << "--- ТЕПЕРЬ СДЕЛАЛ РАЗРАБОТЧИК 2 ---" << std::endl;
+    std::cout << "--- РАБОТАЕТ РАЗРАБОТЧИК 1 ---" << std::endl;
+    std::cout << "--- СДЕЛАЛ РАЗРАБОТЧИК 1 ---" << std::endl;
     std::cout << factorial(5);
     showMenu(); 
     return 0;
