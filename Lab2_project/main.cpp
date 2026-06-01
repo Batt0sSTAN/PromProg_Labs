@@ -19,7 +19,7 @@ int main() {
     std::cout << std::endl;
 
     std::cout << "--- РАБОТАЕТ РАЗРАБОТЧИК 1 ---" << std::endl;
-
+    std::cout << "--- СДЕЛАЛ РАЗРАБОТЧИК 1 ---" << std::endl;
     std::cout << factorial(5);
     showMenu(); 
     return 0;
