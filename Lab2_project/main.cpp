@@ -18,6 +18,7 @@ int factorial(int num) {
 int main() {
     std::cout << std::endl;
 
+    std::cout << "--- СДЕЛАЛ РАЗРАБОТЧИК 1 ---" << std::endl;
     std::cout << "--- ТЕПЕРЬ СДЕЛАЛ РАЗРАБОТЧИК 2 ---" << std::endl;
     std::cout << factorial(5);
     showMenu(); 
