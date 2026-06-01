@@ -7,11 +7,20 @@ void showMenu() {
     std::cout << "2. Exit" << std::endl;
 }
 
+int factorial(int num) {
+    int result = 1;
+    for(int i = 1; i <= num; i++) {
+        result *= num;
+    }
+    return result;
+}
+
 int main() {
-    std::cout << std::endl; // Отступ для читаемости
-    
+    std::cout << std::endl;
+
     std::cout << "--- РАБОТАЕТ РАЗРАБОТЧИК 1 ---" << std::endl;
 
+    std::cout << factorial(5);
     showMenu(); 
     return 0;
 }
