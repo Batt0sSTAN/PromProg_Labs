@@ -1,0 +1,14 @@
+# Исполняемые файлы
+*.exe
+*.out
+*.app
+
+# Объектные файлы и сборка
+*.o
+*.obj
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Скрытые папки IDE (Visual Studio, CLion, VS Code)
+.vscode/
